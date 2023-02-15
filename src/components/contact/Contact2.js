@@ -43,8 +43,8 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">Adsress goes here</div>
-          <div class="text-two">City State Zipcode</div>
+          <div class="text-one">17682 Beach Blvd, Units 203-204,</div>
+          <div class="text-two">Huntington Beach, CA 92647</div>
         </div>
 
         <div class="phone details">

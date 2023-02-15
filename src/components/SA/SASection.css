@@ -126,5 +126,11 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     width: 100%;
   }
 
+  .sa-tile { 
+    width: 280px;
+    height:360px;
+  }
+
 }
+
 
