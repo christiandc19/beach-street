@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beach-street/static/css/main.1d4a4e9d.css",
-    "main.js": "/beach-street/static/js/main.66255d31.js",
+    "main.css": "/beach-street/static/css/main.d8eb4c37.css",
+    "main.js": "/beach-street/static/js/main.7ffb9852.js",
     "static/media/whatwedo.png": "/beach-street/static/media/whatwedo.7f5c9488e4604252948d.png",
     "static/media/menu-bg-treatment.jpg": "/beach-street/static/media/menu-bg-treatment.140ade98e1c257d84734.jpg",
     "static/media/menu-bg-about.jpg": "/beach-street/static/media/menu-bg-about.69cb35ce48fbdeb1176b.jpg",
@@ -39,11 +39,11 @@
     "static/media/bluecross.png": "/beach-street/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/beach-street/index.html",
     "static/media/waves.svg": "/beach-street/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.1d4a4e9d.css.map": "/beach-street/static/css/main.1d4a4e9d.css.map",
-    "main.66255d31.js.map": "/beach-street/static/js/main.66255d31.js.map"
+    "main.d8eb4c37.css.map": "/beach-street/static/css/main.d8eb4c37.css.map",
+    "main.7ffb9852.js.map": "/beach-street/static/js/main.7ffb9852.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d4a4e9d.css",
-    "static/js/main.66255d31.js"
+    "static/css/main.d8eb4c37.css",
+    "static/js/main.7ffb9852.js"
   ]
 }
