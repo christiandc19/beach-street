@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beach-street/static/css/main.d8eb4c37.css",
-    "main.js": "/beach-street/static/js/main.7ffb9852.js",
+    "main.css": "/beach-street/static/css/main.0970d664.css",
+    "main.js": "/beach-street/static/js/main.e58ae121.js",
     "static/media/whatwedo.png": "/beach-street/static/media/whatwedo.7f5c9488e4604252948d.png",
     "static/media/menu-bg-treatment.jpg": "/beach-street/static/media/menu-bg-treatment.140ade98e1c257d84734.jpg",
     "static/media/menu-bg-about.jpg": "/beach-street/static/media/menu-bg-about.69cb35ce48fbdeb1176b.jpg",
@@ -17,7 +17,6 @@
     "static/media/menu-bg-contact.jpg": "/beach-street/static/media/menu-bg-contact.09bd03f95e8ad26cc3d5.jpg",
     "static/media/treatment-1.jpg": "/beach-street/static/media/treatment-1.9b93aa36872433733c19.jpg",
     "static/media/treatment-2.jpg": "/beach-street/static/media/treatment-2.6125ee1c93e30c1b25e6.jpg",
-    "static/media/activity.jpg": "/beach-street/static/media/activity.18cf9f92ce0257180036.jpg",
     "static/media/team.jpg": "/beach-street/static/media/team.24202f3813533aeb44a6.jpg",
     "static/media/staff.jpg": "/beach-street/static/media/staff.05fa3028431c1d3d0788.jpg",
     "static/media/submenu-bg.jpg": "/beach-street/static/media/submenu-bg.ebb4f6c7d8bd77ad609a.jpg",
@@ -39,11 +38,11 @@
     "static/media/bluecross.png": "/beach-street/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/beach-street/index.html",
     "static/media/waves.svg": "/beach-street/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.d8eb4c37.css.map": "/beach-street/static/css/main.d8eb4c37.css.map",
-    "main.7ffb9852.js.map": "/beach-street/static/js/main.7ffb9852.js.map"
+    "main.0970d664.css.map": "/beach-street/static/css/main.0970d664.css.map",
+    "main.e58ae121.js.map": "/beach-street/static/js/main.e58ae121.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8eb4c37.css",
-    "static/js/main.7ffb9852.js"
+    "static/css/main.0970d664.css",
+    "static/js/main.e58ae121.js"
   ]
 }
