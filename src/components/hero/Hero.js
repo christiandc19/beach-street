@@ -3,35 +3,29 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
-// import BgVideo from '../../assets/hero-vbg.mp4'
-
-import waves from '../../assets/waves.svg'
-
+import BgVideo from '../../assets/Bg-Video.mp4'
 
 
 const Hero = () => {
     return (
 <>        
 
-
-
         <div className='hero'>
+            <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
 
-        <div className='hero-divider'>
-                <img src={waves} loading="lazy" repeat-x alt='wave divider'/>
-            </div>
 
 
             <div className="hero-container">
+
                 <div className="content">
-                        <h1 className="animate-charcter">BEACH STREET REHAB</h1>
+                        <h1>BEACH STREET REHAB</h1>
                     <Fade left>
-                        <h2 className='subtitle'>Substance Abuse Addiction and <br/>Mental Health Treatment Facility</h2>
+                        <h2 className='subtitle'>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
                     </Fade>
                         <br />
                         <div className='hero-btn'>
                         <Link to="/contact">
-                        <button>Get an Appointment</button>
+                        <button>Contact Us</button>
                     </Link>
                     </div>
                     <br />
