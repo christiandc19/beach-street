@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/beach-street/static/css/main.13827d7e.css",
-    "main.js": "/beach-street/static/js/main.1b7deaf4.js",
+    "main.css": "/beach-street/static/css/main.797e9d3d.css",
+    "main.js": "/beach-street/static/js/main.539f3aab.js",
     "static/media/Bg-Video-2.mp4": "/beach-street/static/media/Bg-Video-2.50e4ee31eb8d5e73b012.mp4",
-    "static/media/activities-min.png": "/beach-street/static/media/activities-min.6296b11206d33e19d904.png",
     "static/media/hero-bg-1.jpg": "/beach-street/static/media/hero-bg-1.0c93d4ffcbaadc387b6f.jpg",
     "static/media/mh-mainmenu-bg-min.jpg": "/beach-street/static/media/mh-mainmenu-bg-min.93cf35e5dd66807fb752.jpg",
     "static/media/sa-submenu-bg-min.jpg": "/beach-street/static/media/sa-submenu-bg-min.28ecee60e72747097640.jpg",
@@ -15,10 +14,11 @@
     "static/media/mental-health-submenu-bg-min.jpg": "/beach-street/static/media/mental-health-submenu-bg-min.39da261a6bb085bd9946.jpg",
     "static/media/s32.jpg": "/beach-street/static/media/s32.7a98066bdc1698fbe0a7.jpg",
     "static/media/about-section-min.jpg": "/beach-street/static/media/about-section-min.3c76809a2a22f0376395.jpg",
+    "static/media/movies.png": "/beach-street/static/media/movies.22b6f03cb359ceceeebf.png",
     "static/media/s31.jpg": "/beach-street/static/media/s31.89d24dd622a3b4e735c5.jpg",
     "static/media/Section4-image1-min.jpg": "/beach-street/static/media/Section4-image1-min.65912a352c04e74ebf03.jpg",
-    "static/media/wrapper1-min.jpg": "/beach-street/static/media/wrapper1-min.ec3c1135a9346042de97.jpg",
     "static/media/menu-bg-about-min.jpg": "/beach-street/static/media/menu-bg-about-min.3201a98f145a09260080.jpg",
+    "static/media/wrapper1.png": "/beach-street/static/media/wrapper1.52fcb2d83f0d3d48ba80.png",
     "static/media/submenu-bg-jobs.jpg": "/beach-street/static/media/submenu-bg-jobs.8c4e27270e58032cbb35.jpg",
     "static/media/menu-bg-mission.jpg": "/beach-street/static/media/menu-bg-mission.ad81ca1b33d463b33686.jpg",
     "static/media/treatment-2.jpg": "/beach-street/static/media/treatment-2.873fd4460bac0712e2e3.jpg",
@@ -47,11 +47,11 @@
     "static/media/aetna.png": "/beach-street/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/beach-street/index.html",
     "static/media/waves.svg": "/beach-street/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.13827d7e.css.map": "/beach-street/static/css/main.13827d7e.css.map",
-    "main.1b7deaf4.js.map": "/beach-street/static/js/main.1b7deaf4.js.map"
+    "main.797e9d3d.css.map": "/beach-street/static/css/main.797e9d3d.css.map",
+    "main.539f3aab.js.map": "/beach-street/static/js/main.539f3aab.js.map"
   },
   "entrypoints": [
-    "static/css/main.13827d7e.css",
-    "static/js/main.1b7deaf4.js"
+    "static/css/main.797e9d3d.css",
+    "static/js/main.539f3aab.js"
   ]
 }
