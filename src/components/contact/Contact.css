@@ -23,13 +23,18 @@
 .contact-hero .contact-hero-content {
     display: block;
     position: absolute;
-    top: 40%;
+    top: 35%;
     padding: 1rem;
 }
 
 .contact-hero h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.contact-hero h2 {
+    font-size: 3rem;
     color: white;
 }
 

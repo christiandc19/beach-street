@@ -12,8 +12,9 @@
 }
 
 .wrapper-content-left {
-    width: 500px;
+    width: 600px;
     text-align: center;
+    margin: auto;
 }
 
 .wrapper-content-left img {
@@ -29,7 +30,7 @@
 
 
 .wrapper-content-right h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #E2AB7F;
 }
 

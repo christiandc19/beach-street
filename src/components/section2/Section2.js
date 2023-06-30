@@ -1,7 +1,7 @@
 import React from "react";
 import "./Section2.css";
 
-import wrapper1 from "../../assets/wrapper1-min.jpg";
+import wrapper1 from "../../assets/wrapper1.png";
 
 const Section2 = () => {
   return (

@@ -4,7 +4,7 @@ import Contact2 from "../contact/Contact2";
 import TreatmentImage1 from "../../assets/treatment-1.jpg";
 import TreatmentImage2 from "../../assets/treatment-2.jpg";
 
-import Activities from "../../assets/activities-min.png";
+import Activities from "../../assets/movies.png";
 
 import { FaRegStar } from "react-icons/fa";
 
@@ -157,10 +157,6 @@ const TreatmentSection = () => {
                 <FaRegStar className="star" /> Bonfires (Weather permitting).
               </li>
               <li>
-                <FaRegStar className="star" /> Amusement Parks (Knott's Berry
-                Farm, Disneyland, Magic Mountain).
-              </li>
-              <li>
                 <FaRegStar className="star" /> Major League Baseball Games.
               </li>
               <li>
@@ -169,13 +165,6 @@ const TreatmentSection = () => {
               <li>
                 <FaRegStar className="star" /> Community Pool.
               </li>{" "}
-              <li>
-                <FaRegStar className="star" /> NHL Hockey Games.
-              </li>{" "}
-              <li>
-                <FaRegStar className="star" /> Fundraisers for Local Alano Clubs
-                (Chili Cookoffs, Picnics, BBQ’s, Etc.) .
-              </li>
             </ul>
           </p>
         </div>
@@ -248,19 +237,6 @@ const TreatmentSection = () => {
           <br />
           <li>
             <h3>
-              <FaRegStar className="star" /> Art Therapy.
-            </h3>
-            <br />
-            <p>
-              This method is an effective treatment to individuals experiencing
-              mental health struggles with the use of arts. With this method,
-              the patients can express their feelings and emotions in a creative
-              way in a one-on-one or small-group settings.{" "}
-            </p>
-          </li>
-          <br />
-          <li>
-            <h3>
               <FaRegStar className="star" /> Hypnotherapy.
             </h3>
             <br />
@@ -282,21 +258,6 @@ const TreatmentSection = () => {
               This method is to help you learn skills on how to accept and
               understand your difficult feelings. This therapy tries to change
               negative feelings into positive behavior.{" "}
-            </p>
-          </li>
-          <br />
-          <li>
-            <h3>
-              <FaRegStar className="star" /> Psychodynamic Therapy.
-            </h3>
-            <br />
-            <p>
-              This method is used to describe the study of emotional forces and
-              processes, particularly those that develop during the childhood
-              stage, and their effects on behavior and mental states.
-              Psychodynamic therapy is a form of talking therapy that helps
-              clients deal with depression, anxiety, pain, and other mental
-              issues.
             </p>
           </li>
           <br />

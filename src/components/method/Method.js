@@ -6,7 +6,7 @@ const Method = () => {
     return (
         <>
 
-        <div className='method main-menu'>
+        <div className='method'>
 
 
 

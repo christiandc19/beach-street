@@ -19,7 +19,7 @@ const Section3 = () => {
             <div className="centered">
             <h1>INTENSIVE OUTPATIENT PROGRAM</h1>
                         <h2>IOP</h2>
-                        <p>A partial hospitalization program (PHP) is a structured, intensive outpatient treatment program for those who need a higher level of care for a serious mental health condition.</p>
+                        <p>This offer a number of benefits to patients who need behavioral healthcare but do not need a residential program. Our IOP gives patients that freedom to come and go to each session, and to return home every evening.</p>
                     </div>
 
 
@@ -86,8 +86,7 @@ const Section3 = () => {
                 <h1>STRESS MANAGEMENT</h1>
               </div>
               <p>
-                Answer a few questions about your medical history to match with
-                your free medical assistant.
+              It is a state of worry or mental tension caused by a difficult situation. Stress is a natural human response that prompts us to address challenges and threats in our lives.
               </p>
               <div className="c3-link">
                 <p>LEARN MORE</p>
@@ -103,8 +102,7 @@ const Section3 = () => {
                 <h1>DEPRESSION</h1>
               </div>
               <p>
-                Answer a few questions about your medical history to match with
-                your free medical assistant.
+              A group of conditions associated with the elevation or lowering of a person's mood, such as depression or bipolar disorder.
               </p>
               <div className="c3-link">
                 <p>LEARN MORE</p>
@@ -120,8 +118,7 @@ const Section3 = () => {
                 <h1>ANXIETY DISORDER</h1>
               </div>
               <p>
-                Answer a few questions about your medical history to match with
-                your free medical assistant.
+              Intense, excessive, and persistent worry and fear about everyday situations. Fast heart rate, rapid breathing, sweating, and feeling tired may occur.
               </p>
               <div className="c3-link">
                 <p>LEARN MORE</p>
@@ -137,8 +134,7 @@ const Section3 = () => {
                 <h1>ANGER MANAGEMENT</h1>
               </div>
               <p>
-                Answer a few questions about your medical history to match with
-                your free medical assistant.
+              chronic mental health disorder characterized by impulsive, violent, and aggressive behavior, often culminating in verbal and physical outbursts of rage.
               </p>
               <div className="c3-link">
                 <p>LEARN MORE</p>
