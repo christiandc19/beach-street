@@ -18,10 +18,11 @@ const Hero = () => {
             <div className="hero-container">
 
                 <div className="content">
-                        <h1>“A great life starts with a strong mind and a strong body."</h1>
-                    <Fade left>
+                <Fade left>
                         <h2 className='subtitle'>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
                     </Fade>
+                        <h1>“A great life starts with a strong mind and a strong body."</h1>
+
                         <br />
                         <div className='hero-btn'>
                         <Link to="/contact">

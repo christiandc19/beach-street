@@ -3,7 +3,7 @@
 .hero {
     height: 98vh;
     width: 100%;
-    background-color: rgba(14, 13, 13, 0.452);
+    background-color: rgba(0, 0, 0, 0.486);
     z-index: 5555;
 }
 
@@ -16,14 +16,14 @@ video {
   }
 
 .hero .hero-container {
-    top: 40%;
+    top: 45%;
     position: absolute;
     text-align: center;
     width: 100%;
 }
 
 .hero-container .content {
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
@@ -33,20 +33,22 @@ video {
 
 .hero h1 {
 
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
-    color: white;
+    color: rgb(228, 216, 216);
     font-family: 'Libre Baskerville', serif;
+    padding: 1rem;
 }
 
 .hero h2 {
     font-size: 1.5rem;
-    color: rgb(255, 255, 255);
+    color: rgb(228, 216, 216);
+    padding: 1rem 0 0 0;
 }
 
 .hero-container p {
     font-size: 18px;
-    color: white;
+    color: rgb(228, 216, 216);
 }
 
 .hero .hero-btn button {
@@ -64,10 +66,6 @@ video {
 
   .hero h2 {
     font-size: 1.5rem;
-}
-
-.hero h1 {
-font-size: 3rem;
 }
 
 .hero p {

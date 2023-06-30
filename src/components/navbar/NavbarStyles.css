@@ -4,7 +4,7 @@
 .navbar {
     width: 100%;
     z-index: 10;
-    background: #1b1b1b00;
+    background: #b4692b00;
     position: relative;
     text-align: center;
     margin-bottom: -2.4rem;
@@ -21,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
     padding: .6rem 0;
-    background-color: #4ca4c7;
+    background-color: #ce8633fd;
     border-radius: 10px;    
 }
 
@@ -73,7 +73,7 @@
 }
 
 .navbar li a:hover {
-  color: rgb(211, 124, 11);
+  color: rgb(9, 132, 141);
 }
 
   .menu-item .sub__menus li a {
