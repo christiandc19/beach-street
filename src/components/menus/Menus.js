@@ -5,7 +5,6 @@ import { Link as LinkRoll } from "react-scroll";
 import "./Menus.css";
 
 import Contact2 from "../contact/Contact2";
-import SubCardBg from "../../assets/sub-card-bg-min.jpg";
 
 import Card1 from "../../assets/mh-php.jpg";
 import Card2 from "../../assets/mh-iop.jpg";
