@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beach-street/static/css/main.d1de11ae.css",
-    "main.js": "/beach-street/static/js/main.5b04b93b.js",
+    "main.css": "/beach-street/static/css/main.3be2a744.css",
+    "main.js": "/beach-street/static/js/main.dec31afa.js",
     "static/media/Bg-Video-2.mp4": "/beach-street/static/media/Bg-Video-2.2c64052c30baf56cccda.mp4",
     "static/media/activities-min.png": "/beach-street/static/media/activities-min.6296b11206d33e19d904.png",
     "static/media/hero-bg-1.jpg": "/beach-street/static/media/hero-bg-1.0c93d4ffcbaadc387b6f.jpg",
@@ -48,11 +48,11 @@
     "static/media/aetna.png": "/beach-street/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/beach-street/index.html",
     "static/media/waves.svg": "/beach-street/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.d1de11ae.css.map": "/beach-street/static/css/main.d1de11ae.css.map",
-    "main.5b04b93b.js.map": "/beach-street/static/js/main.5b04b93b.js.map"
+    "main.3be2a744.css.map": "/beach-street/static/css/main.3be2a744.css.map",
+    "main.dec31afa.js.map": "/beach-street/static/js/main.dec31afa.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1de11ae.css",
-    "static/js/main.5b04b93b.js"
+    "static/css/main.3be2a744.css",
+    "static/js/main.dec31afa.js"
   ]
 }
