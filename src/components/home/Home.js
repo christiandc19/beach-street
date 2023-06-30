@@ -16,8 +16,9 @@ const home = () => {
   return (
     <>
     {/* <Section4 /> */}
-    <WhatWeDo />
     <Section3 />
+    <WhatWeDo />
+
     {/* <Section1 /> */}
     <TherapySA />
     {/* <Conditions /> */}

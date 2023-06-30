@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
-import logo from '../../assets/nav-logo-wh.png'
+import logo from '../../assets/nav-logo-colored.png'
 import {FiChevronDown } from "react-icons/fi";
-// import Topbar from '../../components/topbar/Topbar';
+import Topbar from '../../components/topbar/Topbar';
 
 import './NavbarStyles.css'
 
@@ -43,13 +43,13 @@ const Navbar = () => {
 
     return (
         <>
-        {/* <Topbar /> */}
+        <Topbar />
 
-        <div className='navbar' name='top'>
+        <div className='navbar' name="scroll">
 
-            <div className='nav-box'>
+            <div className='nav-box container'>
 
-            <div className="navbar-logo">
+            <div className="navbar-logo logo-hide">
                     <Link to='/'>
                     <img src={logo} width="180px" height="70px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Link>
@@ -58,16 +58,6 @@ const Navbar = () => {
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
                     
-                    {/* <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Programs <FiChevronDown /> </Link>
-                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health-php`}> Partial Hospitalization Program</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-iop`}> Intensive Outpatient Program </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-op`}> Outpatient Program </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> Mental Health </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> Substance Addiction </NavLink> </li>
-                        </ul>
-                    </li> */}
-
 
                     <li><Link to='/method'>Our Method</Link> </li>
 

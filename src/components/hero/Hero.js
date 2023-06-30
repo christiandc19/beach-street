@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
-import BgVideo from '../../assets/Bg-Video.mp4'
+import BgVideo from '../../assets/Bg-Video-2.mp4'
 
 
 const Hero = () => {
@@ -18,7 +18,7 @@ const Hero = () => {
             <div className="hero-container">
 
                 <div className="content">
-                        <h1>BEACH STREET REHAB</h1>
+                        <h1>“A great life starts with a strong mind and a strong body."</h1>
                     <Fade left>
                         <h2 className='subtitle'>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
                     </Fade>

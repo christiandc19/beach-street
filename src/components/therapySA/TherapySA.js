@@ -97,7 +97,7 @@ const TherapySA = () => {
             <div className="TherapySA-btn hide-btn">
               <LinkRoll
                 activeClass="active"
-                to="top"
+                to="scroll"
                 spy={true}
                 smooth={true}
                 duration={500}

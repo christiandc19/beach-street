@@ -1,31 +1,70 @@
 .topbar {
     width: 100%;
-    padding: .7rem;
-    background-color: #783B04;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.topbar-logo {
+    width: 250px;
+}
+
+.topbar-logo img {
+    width: 100%;
 }
 
 .topbar .topbar-content {
     display: flex;
-    color: white;
+    justify-content: space-around;
+    color: #222;
 }
+
 
 .topbar .topbar-content p {
     padding: 0 1rem;
     font-size: 14px;
+    text-align: left;
 }
 
 .topbar .bar-box1 {
-    width: 16rem;
-    border-right: 1px solid rgba(255, 255, 255, 0.459);
+    display: flex;
+    width: auto;
+    border-right: 1px solid rgba(14, 13, 13, 0.185);
+    margin: auto;
+}
+
+.topbar .bar-box1 span {
+    margin: auto;
+    font-size: 1.5rem;
+    color: rgb(30, 141, 185);
 }
 
 .topbar .bar-box2 {
-    width: 13rem;
-    border-right: 1px solid rgba(255, 255, 255, 0.459);
-
+    display: flex;
+    width: auto;
+    border-right: 1px solid rgba(14, 13, 13, 0.185);
+    margin: auto;
 }
 
-@media screen and (max-width: 700px) {
+.topbar .bar-box2 span {
+    margin: auto;
+    font-size: 1.5rem;
+    color: rgb(30, 141, 185);
+}
+
+
+.topbar .bar-box3 {
+    display: flex;
+    width: auto;
+    margin: auto;
+}
+
+.topbar .bar-box3 span {
+    margin: auto;
+    font-size: 1.5rem;
+    color: rgb(30, 141, 185);
+}
+
+@media screen and (max-width: 1200px) {
     .topbar {
         display: none;
     }

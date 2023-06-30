@@ -1,13 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-.mh-card-wrap
+.ma-card-wrap
 {
   width:100%;
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items:space-around;
+  gap: 1rem;
 }
+
+
+
+.mental-health {
+  width: 300px;
+}
+
+.mental-health img {
+  width: 100%;
+}
+
+
+.mental-health h1 {
+  font-size: 1rem;
+  text-align: center;
+  padding: .5rem;
+}
+
+.mental-health p {
+  text-align: center;
+  padding: .5rem;
+}
+
+.mental-health {
+  text-align: center;
+}
+
+
+/* Thumbnails */
+
+
+.mental-health-tile
+{
+  width:300px;
+  margin:10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.mental-health-tile img
+{
+  width:100%;
+  border-radius: 10px;
+}
+
+
+
+.mental-health-tile h1 {
+  font-size: 1rem;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .mh-tile
 {

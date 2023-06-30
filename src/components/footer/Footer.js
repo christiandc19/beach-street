@@ -38,7 +38,7 @@ const Footer = () => {
 
               <LinkRoll
                 activeClass="active"
-                to="top"
+                to="top scroll"
                 spy={true}
                 smooth={true}
                 duration={500}
