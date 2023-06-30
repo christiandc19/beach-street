@@ -15,8 +15,8 @@ const Section2 = () => {
           <div className="wrapper-content-right">
             <h1>What We Do</h1> <br />
             <h2>
-              <i>We care about your mental health.</i>
-            </h2>{" "}
+              <i>“Taking a step today will help you lead a better tomorrow.”</i>
+            </h2>
             <br />
             <p>
               At Beach Street Rehab, we offer different levels of care based on

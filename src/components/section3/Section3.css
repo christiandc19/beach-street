@@ -1,22 +1,23 @@
 .section3 {
     background-color: rgb(255, 246, 237);
-    margin: 10rem 0 0 0;
 }
 
 .section3-top {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 1rem;
     margin-top: -10rem;
 }
 
 .s3-flexItem {
-    width: 350px;
+    width: 400px;
 }
 
 .s3-flexItem img {
     width: 100%;
-    padding: 1rem;
+    border-radius: 1rem;
+
 }
 
 /* bottom */
