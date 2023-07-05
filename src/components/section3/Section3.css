@@ -16,6 +16,7 @@
 
 .s3-flexItem img {
     width: 100%;
+    border-radius: .5rem;
 }
 
 
@@ -35,6 +36,8 @@
       opacity: 1;
       /* !!! */
       z-index: 1;
+      border-radius: .5rem;
+
   }
 
   .overlay2::after {
@@ -127,7 +130,7 @@
 
 
 
-/* bottom */
+/* MENTAL HEALTH SERVICES */
 
 .section3-bottom {
     display: flex;
@@ -171,11 +174,7 @@
     width: 100%;
     height: auto;
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     background: rgba(29, 28, 29, 0);
-    padding: 5rem 0 0 0;
   }
   
   .component3:before {
@@ -185,19 +184,18 @@
     height: 100%;
     width: 100%;
     opacity: .06;
-    padding: 3rem 0;
   }
 
 
-
-
-/* .component3 {
+.component3-content {
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 2rem 0;
-} */
+    justify-content: center;
+    gap: 1rem;
+    padding: 7rem 0;
+}
 
 .c3-left {
     width: 480px;
@@ -233,8 +231,10 @@
 .c3-card {
     width: 320px;
     height: 260px;
-    /* background-color: rgb(255, 255, 255); */
+    background-color: rgba(138, 91, 48, 0.151);
     margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 .c3-card h1 {

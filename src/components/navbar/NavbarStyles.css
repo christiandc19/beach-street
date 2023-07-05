@@ -102,8 +102,8 @@
     background: white;
     border: 1px solid lavender;
     border-radius: 10px;
-    width: 300px;
-    left: -17px;
+    width: auto;
+    left: -4rem;
     padding: 2px 0 0 0;
     margin-top: 6px;
     z-index: 1000;
@@ -119,7 +119,7 @@
   .sub__menus__arrows svg, .sub__menus__arrows__full svg {
     padding-top: 0px;
     position: absolute;
-    top: 10px;
+    top: 7px;
   }
 
 
@@ -180,20 +180,19 @@
       .sub__menus {
         width: auto;
       }
-}
 
-
-@media screen and (max-width: 1200px) {
   .logo-hide {
       display: block;
   }
 
   .nav-box {
     border-radius: 0;    
+    background-color: #fff;
 }
 
-.nav-box {
-  background-color: #fff;
+.sub__menus__arrows svg, .sub__menus__arrows__full svg {
+
+  top: 15px;
 }
 
 

@@ -69,7 +69,7 @@ const MenusSA = () => {
 
 {/* SUBTANCE ABUSE IOP */}
 <div class="sub-abuse">
-          <Fade left>
+          <Fade top>
             <img src={Card2} alt="Mental Health" loading="lazy" />
           </Fade>
 
@@ -102,7 +102,7 @@ const MenusSA = () => {
 
 {/* SUBSTANCE ABUSE OP */}
 <div class="sub-abuse">
-          <Fade left>
+          <Fade right>
             <img src={Card3} alt="Mental Health" loading="lazy" />
           </Fade>
 
@@ -146,7 +146,7 @@ const MenusSA = () => {
       
 {/* ALCOHOL */}
         <div className="sub-abuse-tile">
-          <Fade left>
+          <Fade right>
           <img
               src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/alcoholism.jpg"
               alt="Alcoholism"
@@ -178,7 +178,7 @@ const MenusSA = () => {
 
 {/* COCAINE */}
 <div className="sub-abuse-tile">
-          <Fade left>
+          <Fade top>
           <img
               src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/cocaine.jpg"
               alt="Cocaine"
@@ -238,7 +238,7 @@ const MenusSA = () => {
 
 {/* HEROIN */}
 <div className="sub-abuse-tile">
-          <Fade left>
+          <Fade right>
           <img
               src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/heroin.jpg"
               alt="Heroin"
@@ -268,7 +268,7 @@ const MenusSA = () => {
 
 {/* KRATOM */}
 <div className="sub-abuse-tile">
-          <Fade left>
+          <Fade top>
           <img
               src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/kratom.jpg"
               alt="Kratom"

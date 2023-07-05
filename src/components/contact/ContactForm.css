@@ -111,6 +111,24 @@ input {
 
     }
 
+
+.textarea2 textarea {
+  border: none;
+  color: rgb(53, 82, 42);
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+  margin-bottom: 2rem;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  z-index: 2;
+}
+
+  
   
 
   @media screen and (max-width: 940px) {

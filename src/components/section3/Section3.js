@@ -8,6 +8,9 @@ import s32 from "../../assets/s32.jpg";
 import s33 from "../../assets/s33.jpg";
 
 import { BiBrain } from "react-icons/bi";
+import { CiFaceFrown } from "react-icons/ci";
+import { CiFaceMeh } from "react-icons/ci";
+import { RiEmotionSadLine } from "react-icons/ri";
 
 const Section3 = () => {
   return (
@@ -48,13 +51,19 @@ const Section3 = () => {
 
 
 
-        <div className="component3 container">
+
+{/* MENTAL HEALTH SERVICES */}
+
+
+
+        <div className="component3">
+          <div className="component3-content container">
           <div className="c3-left">
             <h2>MENTAL HEALTH SERVICES </h2>
             <h1>
-              Beach Street Rehab makes getting treatment{" "}
+            “Taking a step today will help you lead a 
               <i>
-                <span>simple</span>
+                <span> better tomorrow </span>.”
               </i>
             </h1>
             <p>
@@ -81,9 +90,9 @@ const Section3 = () => {
               <div className="c2-card-img"></div>
               <div className="c3-card-flex">
                 <h2>
-                  <BiBrain />
+                  <CiFaceFrown />
                 </h2>
-                <h1>STRESS MANAGEMENT</h1>
+                <h1>STRESS</h1>
               </div>
               <p>
               It is a state of worry or mental tension caused by a difficult situation. Stress is a natural human response that prompts us to address challenges and threats in our lives.
@@ -97,7 +106,7 @@ const Section3 = () => {
               <div className="c3-card-img"></div>
               <div className="c3-card-flex">
                 <h2>
-                  <BiBrain />
+                  <CiFaceMeh />
                 </h2>
                 <h1>DEPRESSION</h1>
               </div>
@@ -113,9 +122,9 @@ const Section3 = () => {
               <div className="c3-card-img"></div>
               <div className="c3-card-flex">
                 <h2>
-                  <BiBrain />
+                  <RiEmotionSadLine />
                 </h2>
-                <h1>ANXIETY DISORDER</h1>
+                <h1>ANXIETY </h1>
               </div>
               <p>
               Intense, excessive, and persistent worry and fear about everyday situations. Fast heart rate, rapid breathing, sweating, and feeling tired may occur.
@@ -131,7 +140,7 @@ const Section3 = () => {
                 <h2>
                   <BiBrain />
                 </h2>
-                <h1>ANGER MANAGEMENT</h1>
+                <h1>ANGER</h1>
               </div>
               <p>
               chronic mental health disorder characterized by impulsive, violent, and aggressive behavior, often culminating in verbal and physical outbursts of rage.
@@ -140,6 +149,7 @@ const Section3 = () => {
                 <p>LEARN MORE</p>
               </div>
             </div>
+          </div>
           </div>
         </div>
 
