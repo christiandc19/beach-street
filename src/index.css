@@ -135,6 +135,26 @@ margin: 0px 5px;
   .star {
     color: goldenrod;
 }
+
+
+/* Wave Divider - SA and MH Hero Image */
+
+.hero-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.hero-divider img {
+  width: 100%;
+}
+
+
+
   /* MEDIA QUERIES */
   
   @media screen and (max-width:940px) {
@@ -159,22 +179,6 @@ margin: 0px 5px;
   }
 
 
-
-/* Wave Divider - SA and MH Hero Image */
-
-.hero-divider {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.hero-divider img {
-  width: 100%;
-}
 
 @media screen and (max-width: 940px) {
 

@@ -21,7 +21,7 @@ const Topbar = () => {
             <MdLocationPin />
           </span>
           <div className="address-header">
-            <span><b><p>Address Center</p></b></span>
+            <span><b><p>Location:</p></b></span>
             <p>515 W. Santa Monica Ave. #215, Fullerton CA 92832</p>
           </div>
         </div>
@@ -41,8 +41,8 @@ const Topbar = () => {
             <AiOutlinePhone />
           </span>
           <div>
-            <span><b><p>Phone Number</p></b></span>
-            <p>+1 (323) 576-6689</p>
+            <span><b><p>Phone Number:</p></b></span>
+            <p>+1 (323) 902-5644</p>
           </div>
         </div>
       </div>

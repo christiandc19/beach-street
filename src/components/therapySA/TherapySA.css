@@ -40,11 +40,11 @@
 .TherapySA .TherapySA-left {
     width: 500px;
     margin: auto;
+    padding: 1rem;
 }
 
 .TherapySA .TherapySA-left  img{
     width: 100%;
-    margin: auto;
     padding: 1rem;
 }
 
@@ -206,6 +206,9 @@
         padding: 2rem 0 ;
     }
 
+    .TherapySA .TherapySA-left {
+        width: 90%;
+    }
     
 }
 

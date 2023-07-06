@@ -11,8 +11,8 @@
   .PanicDisorder:before {
     content: '';
     position: absolute;
-    background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center center/cover;
-    height: 80vh;
+    background: url('../../assets/mental-health-submenu-bg-min.jpg') no-repeat center center/cover;
+    height: 100%;
     width: 100%;
     z-index: -1;
   }

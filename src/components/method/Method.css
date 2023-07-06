@@ -7,7 +7,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: #783a0425;
+  background: #1a191952;
 }
 
 .method:before {
@@ -25,7 +25,7 @@
     justify-content: center;
     margin: auto;
     position: absolute;
-    top: 40%;
+    top: 30%;
 }
 
 

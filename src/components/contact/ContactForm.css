@@ -1,5 +1,5 @@
 .contactform {
-  background: #F0EFE3;
+  background: #f1ecec;
   padding: 3rem 0;
 }
 
@@ -7,9 +7,10 @@
   .get_form_inner {
     display: block;
     padding: 3rem 3rem ;
-    background: #F0EFE3;
+    background: #ffffff;
     box-shadow: -4px -2px 20px -7px #cfd5df;
     margin: 2rem 5rem 2rem 5rem;
+    border-radius: 1rem;
   }
 
 input {
@@ -40,13 +41,14 @@ input {
   }
 
   .get_form_inner_text h3 {
-    color: #333;
+    color: #161515;
     font-size: 26px;
     font-weight: 600;
   }
 
   .get_form_inner_text p {
     text-align: left;
+    color: #141313;
   }
 
   input[type="submit"] {

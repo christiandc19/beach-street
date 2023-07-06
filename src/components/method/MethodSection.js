@@ -6,7 +6,7 @@ import TreatmentImage2 from "../../assets/treatment-2.jpg";
 
 import Activities from "../../assets/movies.png";
 
-import { FaRegStar } from "react-icons/fa";
+import { AiOutlineCheck } from "react-icons/ai";
 
 import "./MethodSection.css";
 
@@ -44,6 +44,10 @@ const TreatmentSection = () => {
         </p>
       </div>
 
+
+
+
+
       {/* SECTION 2 - TREATMENT PLAN */}
 
       <div className="treatment-plan">
@@ -60,6 +64,7 @@ const TreatmentSection = () => {
             on by the clinical director.{" "}
           </p>
         </div>
+
 
         <div className="treatment-section-tile">
           <div className="tile-description">
@@ -89,14 +94,25 @@ const TreatmentSection = () => {
         </div>
       </div>
 
+
+
+
+
+
+
+
+
+
+
       {/* SECTION 3 */}
 
-      <div className="treatment-section-tile wrap-reverse section3">
-        <div className="tile-image">
+      <div className="wrap-reverse section3">
+
+        <div className="section3-image">
           <img src={TreatmentImage2} alt="Rehab Team" loading="lazy" />
         </div>
 
-        <div className="tile-description">
+        <div className="section3-description">
           <p>
             Some areas to be examined may be personal relationships, work, anger
             management, lack of power, financial burdens, separation from
@@ -105,18 +121,18 @@ const TreatmentSection = () => {
               {" "}
               <br />
               <li>
-                <FaRegStar className="star" /> Counselor and client will set
+                <AiOutlineCheck className="star" /> Counselor and client will set
                 clear and tangible goals regarding above mentioned obstacles.
               </li>
               <br />
               <li>
-                <FaRegStar className="star" /> Counselor and client will
+                <AiOutlineCheck className="star" /> Counselor and client will
                 brainstorm potential hurdles as client attempts to accomplish
                 goals.
               </li>
               <br />
               <li>
-                <FaRegStar className="star" /> Counselor and client discuss
+                <AiOutlineCheck className="star" /> Counselor and client discuss
                 systems for working through hurdles. Counselor and client will —
                 upon following weekly session — discuss successes and setbacks
                 for set goals.
@@ -126,9 +142,14 @@ const TreatmentSection = () => {
         </div>
       </div>
 
+
+
+
+
       {/* SECTION 4 - RECREATIONS */}
 
       <div className="treatment-section-activities">
+        <div className="treatment-section-activities-content">
         <div className="treatment-left">
           <div className="tile-header">
             <h1>Recreations</h1>
@@ -142,28 +163,28 @@ const TreatmentSection = () => {
               {" "}
               <br />
               <li>
-                <FaRegStar className="star" /> Movies.
+                <AiOutlineCheck className="star" /> Movies.
               </li>
               <li>
-                <FaRegStar className="star" /> Bowling.
+                <AiOutlineCheck className="star" /> Bowling.
               </li>
               <li>
-                <FaRegStar className="star" /> Beach/Lake Activities.
+                <AiOutlineCheck className="star" /> Beach/Lake Activities.
               </li>
               <li>
-                <FaRegStar className="star" /> Miniature Golf.
+                <AiOutlineCheck className="star" /> Miniature Golf.
               </li>
               <li>
-                <FaRegStar className="star" /> Bonfires (Weather permitting).
+                <AiOutlineCheck className="star" /> Bonfires (Weather permitting).
               </li>
               <li>
-                <FaRegStar className="star" /> Major League Baseball Games.
+                <AiOutlineCheck className="star" /> Major League Baseball Games.
               </li>
               <li>
-                <FaRegStar className="star" /> Hiking/Nature walk.
+                <AiOutlineCheck className="star" /> Hiking/Nature walk.
               </li>
               <li>
-                <FaRegStar className="star" /> Community Pool.
+                <AiOutlineCheck className="star" /> Community Pool.
               </li>{" "}
             </ul>
           </p>
@@ -171,6 +192,8 @@ const TreatmentSection = () => {
 
         <div className="treatment-right">
           <img src={Activities} alt="activities" />
+        </div>
+
         </div>
       </div>
 
@@ -182,7 +205,7 @@ const TreatmentSection = () => {
           <ul>
             <li>
               <h3>
-                <FaRegStar className="star" /> Individual Sessions.
+                <AiOutlineCheck className="star" /> Individual Sessions.
               </h3>
               <br />
               <p>
@@ -195,7 +218,7 @@ const TreatmentSection = () => {
             <br />
             <li>
               <h3>
-                <FaRegStar className="star" /> Group Sessions.
+                <AiOutlineCheck className="star" /> Group Sessions.
               </h3>
               <br />
               <p>
@@ -213,7 +236,7 @@ const TreatmentSection = () => {
         <ul>
           <li>
             <h3>
-              <FaRegStar className="star" /> Cognitive Behavioral Therapy.
+              <AiOutlineCheck className="star" /> Cognitive Behavioral Therapy.
             </h3>
             <br />
             <p>
@@ -225,7 +248,7 @@ const TreatmentSection = () => {
           <br />
           <li>
             <h3>
-              <FaRegStar className="star" /> Family Therapy.
+              <AiOutlineCheck className="star" /> Family Therapy.
             </h3>
             <br />
             <p>
@@ -237,7 +260,7 @@ const TreatmentSection = () => {
           <br />
           <li>
             <h3>
-              <FaRegStar className="star" /> Hypnotherapy.
+              <AiOutlineCheck className="star" /> Hypnotherapy.
             </h3>
             <br />
             <p>
@@ -251,7 +274,7 @@ const TreatmentSection = () => {
           <br />
           <li>
             <h3>
-              <FaRegStar className="star" /> Dialectal Behavioral Therapy.
+              <AiOutlineCheck className="star" /> Dialectal Behavioral Therapy.
             </h3>
             <br />
             <p>
@@ -263,7 +286,7 @@ const TreatmentSection = () => {
           <br />
           <li>
             <h3>
-              <FaRegStar className="star" /> Interpersonal Therapy.
+              <AiOutlineCheck className="star" /> Interpersonal Therapy.
             </h3>
             <br />
             <p>

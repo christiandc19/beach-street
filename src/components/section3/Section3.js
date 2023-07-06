@@ -12,13 +12,16 @@ const Section3 = () => {
   return (
     <>
       <div className="section3">
+
         <div className="section3-top">
+          
           <div className="s3-flexItem  overlay">
             <img src={s31} alt="Problem Discussion With Psychologist" />
+
             <div className="centered">
             <h1>INTENSIVE OUTPATIENT PROGRAM</h1>
                         <h2>IOP</h2>
-                        <p>This offer a number of benefits to patients who need behavioral healthcare but do not need a residential program. Our IOP gives patients that freedom to come and go to each session, and to return home every evening.</p>
+                        <p> Our IOP gives patients that freedom to come and go to each session, and to return home every evening.</p>
                     </div>
           </div>
 
@@ -27,7 +30,7 @@ const Section3 = () => {
             <div className="centered">
             <h1>PARTIAL HOSPITALIZATION PROGRAM</h1>
                         <h2>PHP</h2>
-                        <p>A partial hospitalization program (PHP) is a structured, intensive outpatient treatment program for those who need a higher level of care for a serious mental health condition.</p>
+                        <p> Structured, intensive outpatient treatment program for those who need a higher level of care for a serious mental health condition.</p>
 
                     </div>
 
@@ -38,7 +41,7 @@ const Section3 = () => {
             <div className="centered centered3">
                         <h1> OUTPATIENT PROGRAM</h1>
                         <h2>OP</h2>
-                        <p>A partial hospitalization program (PHP) is a structured, intensive outpatient treatment program for those who need a higher level of care for a serious mental health condition.</p>
+                        <p>The outpatient program is designed to be a maintenance phase, where clients can attend this specific level of care for however long they dictate. </p>
                     </div>
           </div>
         </div>

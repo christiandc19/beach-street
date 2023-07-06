@@ -4,13 +4,14 @@
 
 .section3-top {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     margin-top: -2rem;
 }
 
 .s3-flexItem {
-    width: 550px;
+    width: 400px;
     height: auto;
 }
 
@@ -23,7 +24,7 @@
 .overlay {
     position: relative;
     z-index: 0;
-  }
+}
   
   .overlay::after {
       content: '';
@@ -93,9 +94,6 @@
     color: rgb(39, 35, 35);
 }
 
-
-
-
 .centered h2 {
       display: flex; flex-direction: row; justify-content: center; text-align: center; font-size:2vw;
         &:before, &:after {  background-color: #d4cbcb; content: '\a0'; flex-grow: 1; height: 1px; position: relative; top: 0.5em; }
@@ -119,81 +117,10 @@
 
 
 
-
-/* MENTAL HEALTH SERVICES */
-
-.section3-bottom {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.s3-bot-flex {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    padding: 3rem 0;
-    width: 400px;
-}
-
-.section3-bottom p {
-    width: 80%;
-    padding: 1rem;
-}
-
-.section3-bottom h1 {
-    color: rgb(24, 23, 23);  
-    padding: 1rem;  
-}
-
-.section3-bottom h2 {
-    font-size: 2rem;
-    padding: .7rem 1rem;
-    border-radius: 2rem;
-    background-color: rgba(255, 255, 255, 0.705);
-    color: rgb(24, 23, 23);    
-}
-
-
-
-
-
-
-@media  screen and (max-width:1300px) {
-    .section3-top {
-        flex-wrap: wrap;
-    }
-}
-
-
-
 @media  screen and (max-width: 940px) {
     
     .s3-flexItem {
-        width: 80vw;
-    }
-
-    .s3-flexItem {
-        width: 100vw;
-    }
-    
-    .c3-card {
-        width: 100%;
-        text-align: center;
-        height: 180px;
-    }
-
-
-    .c3-card-flex {
-        display: inline-block;
-    }
-
-    .c3-card-flex h2 {
-        padding: 0;
-        color: rgb(198, 134, 24);
-        font-size: 2.5rem;
-        background-color: rgba(255, 255, 255, 0);
+        width: 90vw;
     }
 
     
