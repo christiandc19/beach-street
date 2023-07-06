@@ -103,13 +103,6 @@ input {
     margin: 1rem auto;
     }
 
-    iframe {
-      width: 100%;
-      border-radius: 1rem;
-      border: none;
-      box-shadow: 10px 5px 5px rgb(129, 129, 129);
-
-    }
 
 
 .textarea2 textarea {
@@ -136,8 +129,5 @@ input {
         margin: 2rem 1rem 2rem 1rem;
       }
 
-      iframe {
-        display: none;
-      }
     }
   

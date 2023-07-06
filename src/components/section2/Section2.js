@@ -1,5 +1,6 @@
 import React from "react";
 import "./Section2.css";
+import Fade from "react-reveal/Fade";
 
 import wrapper1 from "../../assets/wrapper1.png";
 
@@ -8,10 +9,8 @@ const Section2 = () => {
     <>
       <div className="wrapper1 ">
         <div className="wrapper-content container">
-          <div className="wrapper-content-left">
-            <img src={wrapper1} alt="nurse" loading="lazy" />
-          </div>
-
+          
+        <Fade left>
           <div className="wrapper-content-right">
             <h1>What We Do</h1> <br />
             <h2>
@@ -40,6 +39,15 @@ const Section2 = () => {
               and signed off on by the clinical director.
             </p>
           </div>
+          </Fade>
+
+          <Fade right>
+          <div className="wrapper-content-left">
+            <img src={wrapper1} alt="nurse" loading="lazy" />
+          </div>
+          </Fade>
+
+
         </div>
       </div>
     </>

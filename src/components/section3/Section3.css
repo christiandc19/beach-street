@@ -120,16 +120,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* MENTAL HEALTH SERVICES */
 
 .section3-bottom {
@@ -170,138 +160,13 @@
 
 
 
-.component3 {
-    width: 100%;
-    height: auto;
-    position: relative;
-    background: rgba(29, 28, 29, 0);
-  }
-  
-  .component3:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/bg1.jpg') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    opacity: .06;
-  }
-
-
-.component3-content {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-    padding: 7rem 0;
-}
-
-.c3-left {
-    width: 480px;
-    margin: auto;
-    padding:  0 2rem;
-}
-
-.c3-left p {
-    padding: 1rem 0;
-    font-size: 16px;
-}
-
-.c3-left h1 {
-    font-size: 2.5rem;
-    color: black;
-}
-
-.c3-left h2 {
-    font-size: 1rem;
-    color: rgb(198, 134, 24);
-    letter-spacing: 5px;
-    padding: 1rem 0;
-}
-
-.c3-right {
-    width: 60%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.c3-card {
-    width: 320px;
-    height: 260px;
-    background-color: rgba(138, 91, 48, 0.151);
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 1rem;
-}
-
-.c3-card h1 {
-    padding: 1rem;
-}
-
-
-.c3-card p {
-    padding: 1rem;
-}
-
-.c3-card-flex {
-    display: flex;
-}
-
-.c3-card-flex h2 {
-    /* margin: auto; */
-    background-color: rgb(198, 134, 24);
-    padding: .5rem .7rem .1rem .7rem;
-    border-radius: 5rem;
-    color: white;
-    font-size: 2.5rem;
-}
-
-.c3-card-flex h1 {
-    font-size: 1.1rem;
-}
-
-
-.c3-link p {
-    padding: 0 1rem;
-    color: rgb(198, 134, 24);
-
-}
-
-
-
 @media  screen and (max-width:1300px) {
     .section3-top {
         flex-wrap: wrap;
     }
 }
 
-@media  screen and (max-width:1450px) {
-    .c3-left {
-        width: 100%;
-        text-align: center;
-    }
 
-    .c3-left h1 {
-        font-size: 2rem;
-    }
-
-    .c3-right {
-        width: 100%;
-        padding: 2rem 0;
-    }
-
-    .c3-link p {
-        padding: 0 1rem;
-    }
-    
-    .c3-card-flex {
-        justify-content: center;
-    }
-
-}
 
 @media  screen and (max-width: 940px) {
     

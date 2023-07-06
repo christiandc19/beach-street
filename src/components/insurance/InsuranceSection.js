@@ -90,9 +90,6 @@ const InsuranceSection = () => {
             </div>
 
 
-
-
-
         </div>
         </>
     )

@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 .InsuranceSection {
     width: 100%;
+    height: auto;
     position: relative;
-    padding: 5rem 0;
-    background: #ffffff;
-}
+    background: rgba(29, 28, 29, 0);
+  }
+  
+  .InsuranceSection:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/bg1.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    opacity: .06;
+  }
+
+
 
 .InsuranceSection .content {
     display: flex;
@@ -12,7 +25,10 @@
     justify-content: center;
     gap: 3rem;
     width: 100%;
-    padding: 2rem 0;
+    padding: 5rem 0;
+    margin: 1rem 0;
+    margin: auto;
+
 }
 
 .InsuranceSection-container {
@@ -31,7 +47,7 @@
 }
 
 .insurance-thumbnail {
-    width: 200px;
+    width: 120px;
 }
 
 .insurance-thumbnail img {
