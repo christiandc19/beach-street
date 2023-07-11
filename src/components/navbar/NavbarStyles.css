@@ -55,6 +55,7 @@
     display: flex;
     padding: 1rem;
 }
+
 .navbar li {
     width: max-content;
     padding: .3rem .8rem;
@@ -62,7 +63,6 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
-
 
 .navbar li a {
   color: rgb(224, 226, 225);
@@ -191,8 +191,8 @@
 }
 
 .sub__menus__arrows svg, .sub__menus__arrows__full svg {
-
-  top: 15px;
+  /* top: 15px; */
+  display: none;
 }
 
 
