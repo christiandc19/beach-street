@@ -44,15 +44,17 @@
 }
 
 .hero .hero-container {
-    top: 30%;
+    top: 0%;
     position: absolute;
     text-align: center;
-    width: 100%;
+    width: max-content;
 }
 
 .hero-container .content {
     width: 70%;
     margin: auto;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 16.5rem 0;
 }
 
 .hero-logo {
@@ -98,10 +100,7 @@
     .hero p {
         font-size: 16px;
     }
-    
-    .hero-container .content {
-        width: 100%;
-    }
+
 
   .fling-minislide { 
     height:100vh; 
@@ -119,10 +118,6 @@
     .hero h2 {
         font-size: 18px;
         padding: 10px;
-    }
-
-    .hero .hero-container {
-        top: 35%;
     }
 
 }
