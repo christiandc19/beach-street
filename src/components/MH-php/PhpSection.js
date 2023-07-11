@@ -11,7 +11,7 @@ const PhpSection = () => {
 
 <Fade right>
         <div className="php-wrap-left">
-        <h1 className='header'>WHAT IS PARTIAL HOSPITALIZATION PROGRAM?</h1>
+        <h1>WHAT IS PARTIAL HOSPITALIZATION PROGRAM?</h1>
 
         </div>
     </Fade>
