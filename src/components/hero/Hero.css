@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair&display=swap');
 
+.hero {
+    background-color: black;    
+}
+
 .fling-minislide { 
   display:block; 
   width:100%; 
@@ -44,17 +48,17 @@
 }
 
 .hero .hero-container {
-    top: 0%;
     position: absolute;
     text-align: center;
-    width: max-content;
+    width: 100vw;
+    background-color:#0000005e;
+    height: 100%;
 }
 
 .hero-container .content {
-    width: 70%;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.377);
-    padding: 16.5rem 0;
+    position: relative;
+    top: 30%;
+    padding: 1rem;
 }
 
 .hero-logo {
@@ -89,7 +93,6 @@
 
 
 
-
 @media screen and (max-width:940px) {
 
 
@@ -116,9 +119,9 @@
     }
 
     .hero h2 {
-        font-size: 18px;
-        padding: 10px;
+        font-size: 1rem;
     }
+    
 
 }
 
