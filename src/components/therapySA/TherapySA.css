@@ -74,6 +74,8 @@
     text-align: center;
     color: rgb(27, 26, 26);
     padding: 1rem ;
+    font-family: 'Bacasime Antique', serif;
+    font-size: 2rem;
 }
 
 .therapySA-right-header p {
@@ -94,7 +96,7 @@
 .TherapySA-right .box {
     height: auto;
     width: 320px;
-    background-color: rgba(241, 233, 233, 0.822);
+    background-color: rgba(29, 127, 165, 0.315);
     padding: 1rem 0;
     border-radius: 1rem;
 }

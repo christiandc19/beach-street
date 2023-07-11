@@ -1,19 +1,4 @@
 
-/* .component3 {
-    width: 100%;
-    height: auto;
-    position: relative;
-    background: rgba(29, 28, 29, 0);
-  }
-  
-  .component3:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/bg1.jpg') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    opacity: .06;
-  } */
 
 .component3-content {
     width: 100%;
@@ -58,7 +43,7 @@
 .c3-card {
     width: 320px;
     height: auto;
-    background-color: rgba(138, 91, 48, 0.151);
+    background-color: rgba(29, 127, 165, 0.315);
     margin: 1rem;
     padding: 1rem;
     border-radius: 1rem;

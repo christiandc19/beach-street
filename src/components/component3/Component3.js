@@ -63,9 +63,6 @@ const Component3 = () => {
               <p>
               It is a state of worry or mental tension caused by a difficult situation. Stress is a natural human response that prompts us to address challenges and threats in our lives.
               </p>
-              <div className="c3-link">
-                <p>LEARN MORE</p>
-              </div>
             </div>
 
 
@@ -79,9 +76,6 @@ const Component3 = () => {
               <p>
               A group of conditions associated with the elevation or lowering of a person's mood, such as depression or bipolar disorder.
               </p>
-              <div className="c3-link">
-                <p>LEARN MORE</p>
-              </div>
             </div>
 
             <div className="c3-card c2-card1">
@@ -94,9 +88,6 @@ const Component3 = () => {
               <p>
               Intense, excessive, and persistent worry and fear about everyday situations. Fast heart rate, rapid breathing, sweating, and feeling tired may occur.
               </p>
-              <div className="c3-link">
-                <p>LEARN MORE</p>
-              </div>
             </div>
 
             <div className="c3-card c3-card1">
@@ -109,9 +100,6 @@ const Component3 = () => {
               <p>
               chronic mental health disorder characterized by impulsive, violent, and aggressive behavior, often culminating in verbal and physical outbursts of rage.
               </p>
-              <div className="c3-link">
-                <p>LEARN MORE</p>
-              </div>
             </div>
           </div>
           </div>

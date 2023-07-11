@@ -18,7 +18,7 @@
   } */
 
 .wrapper1 {
-    background-color: rgb(245, 242, 238);
+    background-color: rgba(45, 142, 187, 0.13);
     padding: 3rem 0;
 }
 
@@ -61,6 +61,7 @@
 
 .wrapper-content-right p {
     text-align: justify;
+    font-size: 14px;
 }
 
 

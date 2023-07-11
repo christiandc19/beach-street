@@ -9,7 +9,10 @@ import Staff from "../../assets/staff.jpg";
 const MissionSection = () => {
   return (
     <>
-      <div className="mission-section">
+    <div className="missionSection">
+
+   
+      <div className="mission-section container">
         <Fade left>
           <div className="mission-section-left">
             <h1>Our Mission</h1>
@@ -53,6 +56,7 @@ const MissionSection = () => {
             </p>
           </div>
         </Fade>
+      </div>
       </div>
 
       <ContactForm />

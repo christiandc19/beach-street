@@ -1,3 +1,7 @@
+.missionSection {
+    padding: 3rem 0;
+}
+
 .mission-section {
     display: flex;
     flex-wrap: wrap;

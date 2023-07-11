@@ -57,7 +57,7 @@
 }
 .navbar li {
     width: max-content;
-    padding: .3rem 1rem;
+    padding: .3rem .8rem;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
