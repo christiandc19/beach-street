@@ -66,7 +66,7 @@ const TreatmentSection = () => {
         </div>
 
 
-        <div className="treatment-section-tile">
+        <div className="treatment-section-tile container">
           <div className="tile-description">
             <p>
               The treatment plan will be developed between client and counselor
@@ -106,7 +106,7 @@ const TreatmentSection = () => {
 
       {/* SECTION 3 */}
 
-      <div className="wrap-reverse section3">
+      <div className="wrap-reverse section3 container">
 
         <div className="section3-image">
           <img src={TreatmentImage2} alt="Rehab Team" loading="lazy" />
@@ -118,7 +118,6 @@ const TreatmentSection = () => {
             management, lack of power, financial burdens, separation from
             children, past trauma as it relates to present, school, etc.
             <ul>
-              {" "}
               <br />
               <li>
                 <AiOutlineCheck className="star" /> Counselor and client will set
