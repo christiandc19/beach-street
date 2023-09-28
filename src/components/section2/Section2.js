@@ -1,49 +1,49 @@
 import React from "react";
 import "./Section2.css";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll";
 
-import wrapper1 from "../../assets/wrapper1.png";
+import wrapper1 from "../../assets/wrapper1.webp";
 
 const Section2 = () => {
   return (
     <>
-      <div className="wrapper1 ">
-        <div className="wrapper-content container">
+      <div className="section2 ">
+        <div className="section2-content container">
           
         <Fade left>
-          <div className="wrapper-content-right">
-            <h1>What We Do</h1> <br />
+          <div className="section2-content-right">
+            <h1>MENTAL HEALTH</h1> <br />
             <h2>
               <i>“Taking a step today will help you lead a better tomorrow.”</i>
             </h2>
             <br />
             <p>
-              At Beach Street Rehab, we offer different levels of care based on
-              each individual’s needs. Our programs consist of an intensive
-              outpatient program (IOP) and a more demanding and structured
-              partial hospitalization program (PHP). <br /> <br />
-              You can be confident that our caring and professional staff will
-              recommend the right level of care for you or your loved one.
+            Our comprehensive Mental Health Treatment Center at Beach Street Rehab is dedicated to addressing the critical intersection of mental well-being and overall health. We understand that every individual's journey is unique, and our therapeutic services reflect that. From individual therapy sessions to group support, we offer a range of options to accommodate various preferences and comfort levels. Our practitioners are dedicated to staying at the forefront of mental health research and treatment methodologies, ensuring that you receive the most effective care available. Take the first step towards a healthier, happier you by exploring our offerings and scheduling a consultation with one of our compassionate experts today. Remember, at Beach Street Rehab, you're not alone on this path, and together, we'll pave the way to a brighter, more fulfilling tomorrow.
             </p>
             <br />
-            <h3>Treatment</h3> <br />
-            <p>
-              All treatment clients will have a recovery/treatment plan
-              developed within 30 days of admission. Measurement and
-              reassessment of treatment plan progress happen on a weekly basis
-              through the weekly summary. <br />
-              <br /> In the weekly summary, the drug and alcohol counselor will
-              ensure that action steps to be taken by client or counselor are on
-              target and that the action step achievements will enable
-              resolution of the objective. All treatment plans are reviewed by
-              and signed off on by the clinical director.
-            </p>
+            <div className="hide">
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                      <Link to="/mental-health">
+                        <button>Learn More</button>
+                      </Link>
+                    </LinkRoll>
+                  </div>
+
+                  <div className="show">
+                    <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
+                      <Link to="/mental-health">
+                        <button>Learn More</button>
+                      </Link>
+                    </LinkRoll>
+                  </div>
           </div>
           </Fade>
 
           <Fade right>
-          <div className="wrapper-content-left">
-            <img src={wrapper1} alt="nurse" loading="lazy" />
+          <div className="section2-content-left">
+            <img src={wrapper1} alt="Mental Health Therapy Session" loading="lazy" />
           </div>
           </Fade>
 

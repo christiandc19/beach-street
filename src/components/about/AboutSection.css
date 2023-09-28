@@ -115,7 +115,7 @@
         padding: 1rem 2rem;
     }
 
-    .about-content-right h1, h2, p {
+    .about-content-right h1, .about-content-right h2, .about-content-right p {
         text-align: center;
     }
 

@@ -4,123 +4,87 @@
     width: 100%;
     height: auto;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    padding: 5rem 0;
+    padding: 5rem 1rem;
 }
 
 .c3-left {
-    width: 35%;
+    width: 50%;
     margin: auto;
 }
 
 .c3-left p {
-    padding: 1rem 0;
-    font-size: 16px;
+    font-size: 14px;
+    text-align: justify;
 }
 
 .c3-left h1 {
-    font-size: 2.5rem;
-    color: black;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Bacasime Antique', serif;
+}
+
+.c3-left h5 {
+    text-align: left;
+    padding: .5rem 0;
 }
 
 .c3-left h2 {
     font-size: 1rem;
     color: rgb(198, 134, 24);
-    letter-spacing: 5px;
-    padding: 1rem 0;
+    letter-spacing: 3px;
+    padding: .5rem 0;
+    text-align: left;
 }
 
 .c3-right {
-    width: 60%;
+    width: 50%;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
-.c3-card {
-    width: 320px;
-    height: auto;
-    background-color: rgba(29, 127, 165, 0.315);
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 1rem;
+.c3-right-img {
+    width: 100%;
+    margin: auto;
 }
 
-.c3-card h1 {
-    padding: 1rem;
-}
-
-
-.c3-card p {
-    padding: 1rem;
-}
-
-.c3-card-flex {
-    display: flex;
-}
-
-.c3-card-flex h2 {
-    /* margin: auto; */
-    background-color: rgb(198, 134, 24);
-    padding: .5rem .7rem .1rem .7rem;
-    border-radius: 5rem;
-    color: white;
-    font-size: 2.5rem;
-}
-
-.c3-card-flex h1 {
-    font-size: 1.1rem;
-}
-
-
-.c3-link p {
-    padding: 0 1rem;
-    color: rgb(198, 134, 24);
-
+.c3-right-img img {
+    width: 100%;
+    border-radius: 5px;
 }
 
 
 
 @media  screen and (max-width:940px) {
 
-    .c3-left h1 {
-        font-size: 2rem;
-    }
-
-    .c3-right {
-        width: 100%;
-        padding: 2rem 0;
-    }
-
-    .c3-link p {
-        padding: 0 1rem;
+    .component3-content {
+        flex-wrap: wrap;
     }
     
-    .c3-card-flex {
-        justify-content: center;
-    }
-
-    .c3-card {
-        width: 80%;
-    }
-
-
-}
-
-
-@media  screen and (max-width:1200px) {
-
     .c3-left {
         width: 100%;
-        text-align: center;
-        padding: 1rem;
     }
-
-
+    
     .c3-right {
         width: 100%;
     }
+
+    .c3-left h1 {
+        text-align: center;
+    }
+
+    .c3-left h2 {
+        text-align: center;
+    }
+
+    .c3-left h5 {
+        text-align: center;
+    }
+
+
+
 }
+
+

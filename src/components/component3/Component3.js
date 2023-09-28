@@ -1,17 +1,7 @@
 import React from 'react'
-
 import "./Component3.css";
-import { Link } from "react-router-dom";
-import { Link as LinkRoll } from "react-scroll";
 
-
-import { BiBrain } from "react-icons/bi";
-import { CiFaceFrown } from "react-icons/ci";
-import { CiFaceMeh } from "react-icons/ci";
-import { RiEmotionSadLine } from "react-icons/ri";
-
-
-
+import c3Img from "../../assets/c3-img.webp";
 
 const Component3 = () => {
   return (
@@ -22,30 +12,18 @@ const Component3 = () => {
           <div className="component3-content container">
 
           <div className="c3-left">
-            <h2>MENTAL HEALTH SERVICES </h2>
-            <h1>
-            “Taking a step today will help you lead a 
-              <i>
-                <span> better tomorrow </span>.”
-              </i>
-            </h1>
+
+            <h1>Welcome to Beach Street Rehab</h1>
+            <h5>Addiction and Mental Health Treatment Facility in Orange County</h5>
+            <h2>WHAT WE DO</h2>
             <p>
-              Your personal medical assistant is always a message away for
-              anything you need, at no cost.
-            </p>
-            <div className="c2-btn">
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/mental-health">
-                  <button>View All</button>
-                </Link>
-              </LinkRoll>
-            </div>
+            At Beach Street Rehab, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP).</p>
+            <p>You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.</p>
+            <h2>TREATMENT</h2>
+            <p>All treatment clients will have a recovery/treatment plan developed within 30 days of admission. Measurement and reassessment of treatment plan progress happen on a weekly basis through the weekly summary.</p>
+            <p>In the weekly summary, the drug and alcohol counselor will ensure that action steps to be taken by client or counselor are on target and that the action step achievements will enable resolution of the objective. All treatment plans are reviewed by and signed off on by the clinical director.</p>
+
+
           </div>
 
 
@@ -53,54 +31,12 @@ const Component3 = () => {
 
           <div className="c3-right">
 
-            <div className="c3-card c3-card1">
-              <div className="c3-card-flex">
-                <h2>
-                  <CiFaceFrown />
-                </h2>
-                <h1>STRESS</h1>
-              </div>
-              <p>
-              It is a state of worry or mental tension caused by a difficult situation. Stress is a natural human response that prompts us to address challenges and threats in our lives.
-              </p>
+            
+            <div className='c3-right-img'>
+              <img src={c3Img} alt="nurse" loading="lazy" />
             </div>
+            
 
-
-            <div className="c3-card c3-card1">
-              <div className="c3-card-flex">
-                <h2>
-                  <CiFaceMeh />
-                </h2>
-                <h1>DEPRESSION</h1>
-              </div>
-              <p>
-              A group of conditions associated with the elevation or lowering of a person's mood, such as depression or bipolar disorder.
-              </p>
-            </div>
-
-            <div className="c3-card c2-card1">
-              <div className="c3-card-flex">
-                <h2>
-                  <RiEmotionSadLine />
-                </h2>
-                <h1>ANXIETY </h1>
-              </div>
-              <p>
-              Intense, excessive, and persistent worry and fear about everyday situations. Fast heart rate, rapid breathing, sweating, and feeling tired may occur.
-              </p>
-            </div>
-
-            <div className="c3-card c3-card1">
-              <div className="c3-card-flex">
-                <h2>
-                  <BiBrain />
-                </h2>
-                <h1>ANGER</h1>
-              </div>
-              <p>
-              chronic mental health disorder characterized by impulsive, violent, and aggressive behavior, often culminating in verbal and physical outbursts of rage.
-              </p>
-            </div>
           </div>
           </div>
         </div>

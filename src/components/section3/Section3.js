@@ -1,10 +1,15 @@
 import React from "react";
 import "./Section3.css";
 
+import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll";
 
-import s31 from "../../assets/s31.webp";
-import s32 from "../../assets/s32.webp";
-import s33 from "../../assets/s33.webp";
+import Card1 from "../../assets/programs-card-1.webp";
+import Card2 from "../../assets/programs-card-2.webp";
+import Card3 from "../../assets/programs-card-3.webp";
+import Card4 from "../../assets/programs-card-4.webp";
+import Card5 from "../../assets/programs-card-5.webp";
+import Card6 from "../../assets/programs-card-6.webp";
 
 
 
@@ -12,37 +17,191 @@ const Section3 = () => {
   return (
     <>
       <div className="section3">
+        <div className="section3-content container">
 
-        <div className="section3-top">
-          
-          <div className="s3-flexItem  overlay">
-            <img src={s31} alt="Problem Discussion With Psychologist" />
+          <div className="menu-programs-header container">
+              <h1>
+                Beach Street Rehab Treatment Center offers various Mental Health Programs
+              
+              </h1>
+              <p>
+                At Beach Street Rehab Treatment Center, clients receive individual
+                therapy alongside a range of additional treatments, including relapse
+                prevention, trauma therapy, mindfulness meditation, transportation,
+                yoga, and more. We offer support that clients need to allow them to
+                gradually go back to treatment.
+              </p>
+            </div>
 
-            <div className="centered">
-            <h1>INTENSIVE OUTPATIENT PROGRAM</h1>
-                        <h2>IOP</h2>
-                        <p> Our IOP gives patients that freedom to come and go to each session, and to return home every evening.</p>
-                    </div>
-          </div>
 
-          <div className="s3-flexItem overlay overlay2">
-            <img src={s32} alt="Crying Woman Participating In Group" />
-            <div className="centered">
-            <h1>PARTIAL HOSPITALIZATION PROGRAM</h1>
-                        <h2>PHP</h2>
-                        <p> Structured, intensive outpatient treatment program for those who need a higher level of care for a serious mental health condition.</p>
+          <div className="section3-flex">
+{/* PHP */}
+              <div class="section3-flexItem">
+                  <img src={Card1} alt="Mental Health" loading="lazy" />
+                <div>
+                  <h1>PARTIAL HOSPITALIZATION</h1>
+                  <div className="hide">
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                      <Link to="/partial-hospitalization-program">
+                        <button>Learn More</button>
+                      </Link>
+                    </LinkRoll>
+                  </div>
 
-                    </div>
+                  <div className="show">
+                    <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
+                      <Link to="/partial-hospitalization-program">
+                        <button>Learn More</button>
+                      </Link>
+                    </LinkRoll>
+                  </div>
+                </div>
+              </div>
 
-          </div>
+{/* IOP */}
 
-          <div className="s3-flexItem  overlay overlay3">
-            <img src={s33} alt="Depressed Man In Counseling Session " />
-            <div className="centered centered3">
-                        <h1> OUTPATIENT PROGRAM</h1>
-                        <h2>OP</h2>
-                        <p>The outpatient program is designed to be a maintenance phase, where clients can attend this specific level of care for however long they dictate. </p>
-                    </div>
+              <div class="section3-flexItem">
+                  <img src={Card2} alt="Mental Health" loading="lazy" />
+                <div>
+                  <h1>INTENSIVE OUTPATIENT</h1>
+                  <div className="hide">
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                      <Link to="/intensive-outpatient-program">
+                        <button>Learn More</button>
+                      </Link>
+                    </LinkRoll>
+                  </div>
+
+                  <div className="show">
+                    <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
+                      <Link to="/intensive-outpatient-program">
+                        <button>Learn More</button>
+                      </Link>
+                    </LinkRoll>
+                  </div>
+                </div>
+              </div>
+
+
+{/* OP */}
+
+<div class="section3-flexItem">
+                  <img src={Card3} alt="Mental Health" loading="lazy" />
+                <div>
+                  <h1>OUTPATIENT</h1>
+                  <div className="hide">
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                      <Link to="/outpatient-program">
+                        <button>Learn More</button>
+                      </Link>
+                    </LinkRoll>
+                  </div>
+
+                  <div className="show">
+                    <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
+                      <Link to="/outpatient-program">
+                        <button>Learn More</button>
+                      </Link>
+                    </LinkRoll>
+                  </div>
+                </div>
+              </div>
+
+
+{/* CASE MANAGEMENT */}
+
+<div class="section3-flexItem">
+                  <img src={Card4} alt="Mental Health" loading="lazy" />
+                <div>
+                  <h1>CASE MANAGEMENT</h1>
+                  <div className="hide">
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                      <Link to="/case-management">
+                        <button>Learn More</button>
+                      </Link>
+                    </LinkRoll>
+                  </div>
+
+                  <div className="show">
+                    <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
+                      <Link to="/case-management">
+                        <button>Learn More</button>
+                      </Link>
+                    </LinkRoll>
+                  </div>
+                </div>
+              </div>
+
+
+
+{/* CRISIS INTERVENTION */}
+
+<div class="section3-flexItem">
+                  <img src={Card5} alt="Mental Health" loading="lazy" />
+                <div>
+                  <h1>CASE MANAGEMENT</h1>
+                  <div className="hide">
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                      <Link to="/crisis-intervention">
+                        <button>Learn More</button>
+                      </Link>
+                    </LinkRoll>
+                  </div>
+
+                  <div className="show">
+                    <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
+                      <Link to="/crisis-intervention">
+                        <button>Learn More</button>
+                      </Link>
+                    </LinkRoll>
+                  </div>
+                </div>
+              </div>
+
+
+
+{/* FAMILY THERAPY */}
+
+<div class="section3-flexItem">
+                  <img src={Card6} alt="Mental Health" loading="lazy" />
+                <div>
+                  <h1>CASE MANAGEMENT</h1>
+                  <div className="hide">
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                      <Link to="/family-therapy">
+                        <button>Learn More</button>
+                      </Link>
+                    </LinkRoll>
+                  </div>
+
+                  <div className="show">
+                    <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
+                      <Link to="/family-therapy">
+                        <button>Learn More</button>
+                      </Link>
+                    </LinkRoll>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           </div>
         </div>
       </div>

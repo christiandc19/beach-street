@@ -22,7 +22,7 @@ const Topbar = () => {
           </span>
           <div className="address-header">
             <span><b><p>Location:</p></b></span>
-            <p>515 W. Santa Monica Ave. #215, Fullerton CA 92832</p>
+            <p>17682 Beach Blvd, Huntington Beach, CA 92647</p>
           </div>
         </div>
 

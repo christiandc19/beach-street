@@ -25,20 +25,21 @@ const Hero = () => {
 
                 <div className="content">
                <Fade left>
-                         <h2 className='subtitle'>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
+                         <h2>Substance Abuse Addiction and Mental Health Treatment Facility in Orange County</h2>
                      </Fade>
                         <h1>“A great life starts with a strong mind and a strong body."</h1>
 
                         <br />
+                        
                        <div className='hero-btn'>
                          <Link to="/contact">
-                    <button>Contact Us</button>
-                    </Link>                     </div>
-                     <br />
-                     <Fade bottom>
-                         <p>Find your happiness and learn to put it first.</p>
-                     </Fade>
-                 </div>
+                          <button>Contact Us</button>
+                          </Link>                     </div>
+                          <br />
+                          <Fade bottom>
+                              <p>Find your happiness and learn to put it first.</p>
+                          </Fade>
+                      </div>
             </div>
 
       </div>

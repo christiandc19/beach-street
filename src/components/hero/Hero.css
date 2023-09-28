@@ -87,6 +87,15 @@
 
 .hero .hero-btn button {
     cursor: pointer;
+    background-color: white;
+    color: var(--primary-dark);
+    border: none;
+    font-weight: 600;
+}
+
+.hero .hero-btn button:hover {
+  background-color: #c27d2efd;
+  color: white;
 }
 
 /* MEDIA QUERIES */
