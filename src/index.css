@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
 :root {
-  --primary-color: #4ca4c7;
+  --primary-color: #0551c2;
   --primary-dark: #0d2154;
   --secondary-color: #46a828;
+  --primary-text:  rgb(26, 24, 41);
+
 
 }
 
@@ -34,11 +36,11 @@ ul {
 
 a {
   text-decoration: none;
-  color: #dddddd;
+  color: #067dec;
 }
 
 a:hover {
-  color: #06cfcf;
+  color: #e49e06;
 }
 
 p {

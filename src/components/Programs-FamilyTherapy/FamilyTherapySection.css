@@ -1,0 +1,93 @@
+.FamilyTherapy-section {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: rgba(29, 28, 29, 0);
+  }
+  
+  .FamilyTherapy-section:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/bg1.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    opacity: .03;
+  }
+
+  .FamilyTherapy-section-content {
+    padding: 1rem;
+  }
+
+.FamilyTherapy-section-header {
+    text-align: justify;
+    padding: 3rem 0;
+}
+
+.FamilyTherapy-section-header h1 {
+    padding: .5rem 0;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.FamilyTherapy-section-header h2 {
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.FamilyTherapy-section-header p {
+    padding: .5rem 0;
+    text-align: justify;
+}
+
+.FamilyTherapy-section-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 3rem;   
+}
+
+.FamilyTherapy-section-flex-left {
+    width: 80%;
+    margin: auto;
+}
+
+.FamilyTherapy-section-flex-right {
+    width: 700px;
+    height: auto;
+    margin: auto;
+}
+
+.FamilyTherapy-section-flex-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.FamilyTherapy-section-flex h1 {
+    padding: .5rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.FamilyTherapy-section-flex h2 {
+    padding: .5rem 0;
+    font-size: .8rem;
+}
+
+.FamilyTherapy-section-flex p {
+    text-align: justify;
+}
+
+@media screen and (max-width:940px) {
+    .FamilyTherapy-section-flex {
+        flex-wrap: wrap-reverse;  
+    }
+
+    .FamilyTherapy-section-header h1 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+
+}

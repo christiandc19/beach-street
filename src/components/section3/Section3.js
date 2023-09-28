@@ -2,9 +2,9 @@ import React from "react";
 import "./Section3.css";
 
 
-import s31 from "../../assets/s31.jpg";
-import s32 from "../../assets/s32.jpg";
-import s33 from "../../assets/s33.jpg";
+import s31 from "../../assets/s31.webp";
+import s32 from "../../assets/s32.webp";
+import s33 from "../../assets/s33.webp";
 
 
 

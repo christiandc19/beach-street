@@ -109,8 +109,9 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 }
 
 .mh-cards-header h1 {
-  margin: 2rem auto;
+  padding: 1rem 0;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 .mh-cards-header p {

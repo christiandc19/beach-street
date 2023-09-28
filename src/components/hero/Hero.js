@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 import "./Hero.css";
-import Hero1 from '../../assets/hero-1.jpg'
-import Hero2 from '../../assets/hero-2.jpg'
-import Hero3 from '../../assets/hero-3.jpg'
-import Hero4 from '../../assets/hero-4.jpg'
+import Hero1 from '../../assets/hero-1.webp'
+import Hero2 from '../../assets/hero-2.webp'
+import Hero3 from '../../assets/hero-3.webp'
+import Hero4 from '../../assets/hero-4.webp'
 
 
 const Hero = () => {

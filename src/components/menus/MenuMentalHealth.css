@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+.menu-mental-health {
+  padding: 4rem 0;
+}
+
+.menu-mental-health-content {
+  padding: 1rem;
+}
+
+.menu-mental-health-header {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.menu-mental-health-header h1 {
+  padding: .5rem 0;
+  font-family: 'Bacasime Antique', serif;
+  color: var(--primary-text);
+}
+
+.menu-mental-health-flex
+{
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Thumbnails */
+
+
+.mental-health-flexItem
+{
+  width:300px;
+  margin:10px;
+  text-align: center;
+}
+
+.mental-health-flexItem img
+{
+  width:100%;
+}
+
+.mental-health-flexItem h1 {
+  font-size: 1rem;
+  padding: .5rem 0;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+@media (max-width: 720px) {
+  .mental-health-flexItem {
+      width:100%;
+      margin:10px;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+}
+

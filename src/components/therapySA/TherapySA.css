@@ -26,6 +26,7 @@
     flex-wrap: nowrap;
     gap: 1rem;
     top: 10%;
+    padding: 5rem 0;
 }
 
 .box-icon {

@@ -68,22 +68,26 @@
   color: rgb(224, 226, 225);
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 500;
   font-size: 1rem;
+
 }
 
 .navbar li a:hover {
-  color: rgb(9, 132, 141);
+  color: rgb(5, 62, 109) !important;
+  font-weight: 600;
 }
 
   .menu-item .sub__menus li a {
-    color: #000000;
+    color: #ffffff;
     font-size: 13px;
     padding: -1rem ;
+    font-weight: 100;
   }
 
   .menu-item .sub__menus li a:hover {
-    color: rgb(255, 123, 0) !important;
+    color: rgb(24, 23, 23) !important;
+    font-weight: 600;
   }
 
   li .submenu-header {
@@ -99,11 +103,9 @@
 .sub__menus {
     position: absolute;
     display: none;
-    background: white;
-    border: 1px solid lavender;
+    background: #c27d2efd;
     border-radius: 10px;
     width: auto;
-    left: -4rem;
     padding: 2px 0 0 0;
     margin-top: 6px;
     z-index: 1000;
@@ -191,8 +193,7 @@
 }
 
 .sub__menus__arrows svg, .sub__menus__arrows__full svg {
-  /* top: 15px; */
-  display: none;
+  top: 15px;
 }
 
 

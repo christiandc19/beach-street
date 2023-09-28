@@ -3,7 +3,8 @@ import React from 'react'
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
 import SA from '../components/SA/SA'
-import SASection from '../components/SA/SASection'
+import MenuAddiction from "../components/menus/MenuAddiction";
+import Contact2 from "../components/contact/Contact2";
 
 
 const SAbuse = () => {
@@ -11,7 +12,8 @@ const SAbuse = () => {
     <>
     <Navbar /> 
     <SA />
-    <SASection />
+    <MenuAddiction />
+    <Contact2 />
     <Footer />
      </>
   )

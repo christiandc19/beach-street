@@ -24,9 +24,9 @@ const Section2 = () => {
               partial hospitalization program (PHP). <br /> <br />
               You can be confident that our caring and professional staff will
               recommend the right level of care for you or your loved one.
-            </p>{" "}
+            </p>
             <br />
-            <h1>Treatment</h1> <br />
+            <h3>Treatment</h3> <br />
             <p>
               All treatment clients will have a recovery/treatment plan
               developed within 30 days of admission. Measurement and
