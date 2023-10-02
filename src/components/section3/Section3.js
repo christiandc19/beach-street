@@ -139,7 +139,7 @@ const Section3 = () => {
 <div class="section3-flexItem">
                   <img src={Card5} alt="Mental Health" loading="lazy" />
                 <div>
-                  <h1>CASE MANAGEMENT</h1>
+                  <h1>CRISIS INTERVENTION</h1>
                   <div className="hide">
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                       <Link to="/crisis-intervention">
@@ -165,7 +165,7 @@ const Section3 = () => {
 <div class="section3-flexItem">
                   <img src={Card6} alt="Mental Health" loading="lazy" />
                 <div>
-                  <h1>CASE MANAGEMENT</h1>
+                  <h1>FAMILY THERAPY</h1>
                   <div className="hide">
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                       <Link to="/family-therapy">
