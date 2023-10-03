@@ -131,6 +131,9 @@
 
 @media screen and (max-width: 1200px) {
 
+  .sub__menus__arrows {
+    display: none;
+  }
 
     .navbar .hamburger {
         display: block;
