@@ -91,26 +91,8 @@ const TherapySA = () => {
         </div>
 
 
-            <div className="TherapySA-btn hide-btn">
-              <LinkRoll
-                activeClass="active"
-                to="scroll"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/substance-abuse">
-                  <div className="therapySA-btn">
-                    <button>
-                      <span>VIEW ALL</span>
-                    </button>
-                  </div>
-                </Link>
-              </LinkRoll>
-            </div>
 
-
-            <div className="hide">
+            <div>
                   <LinkRoll
                     activeClass="active"
                     to="top"
@@ -127,9 +109,6 @@ const TherapySA = () => {
                     </Link>
                   </LinkRoll>
                 </div>
-
-
-
 
 
 
